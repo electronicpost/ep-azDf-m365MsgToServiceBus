@@ -18,5 +18,5 @@ The following is the orchestration sequence:
 - 03 reqList (Fan In): Compiled list of tenant id's and tokens.
 - 04 getMessages (Fan Out): Iterate through each tenant and retrieve M365 messages.
 - 05 msgList (Fan In): Compiled list of tenant id's and messages.
-- 06 finalMsgCount: Count of the number of messages collected across the number of tenants
+- 06 finalMsgCount: Count of the number of messages collected across the number of tenants (sent to service bus topic)
 
