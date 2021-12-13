@@ -1,0 +1,17 @@
+{
+    "updated": "2021-12-13",
+    "live": [
+      {
+        "tenantName": "tenant1",
+        "clientId": "",
+        "secretKey": "t1secret-configref",
+        "tenantId": ""
+      },
+      {
+        "tenantName": "tenant2",
+        "clientId": "",
+        "secretKey": "t2secret-configref",
+        "tenantId": ""
+      }
+    ]
+  }
